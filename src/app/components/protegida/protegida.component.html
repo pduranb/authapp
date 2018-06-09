@@ -1,0 +1,21 @@
+<div class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-4">
+                <figure class="image">
+                    <img [src]="profile.picture" alt="">
+                </figure>
+            </div>
+            <div class="column is-8">
+                <div class="content has-text-centered">
+                    <h3> Informacion </h3>
+                    <ul>
+                        <li class="box">Nombre :{{profile.name}}</li>
+                        <li class="box">Genero : {{profile.gender}}</li>
+                        <li class="box">Ultimas Fecha de Actualizacion : {{profile.updated_at | date : 'dd MM yyyy'}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

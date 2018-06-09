@@ -1,0 +1,46 @@
+<section class="hero is-white  is-fullheight">
+    <!-- Hero head: will stick at the top -->
+
+
+    <!-- Hero content: will be in the middle -->
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns  is-centered">
+                <div class="column is-half is-narrow  has-text-centered is-flex is-horizontal-center">
+
+                    <figure class="title image animated flip">
+                        <img src="../../../assets/Sense_burned.png">
+                    </figure>
+
+
+                </div>
+            </div>
+            <div class="columns is-centered">
+                <div class="column is-half is-narrow  has-text-centered animated fadeIn " [ngClass]=" {'fadeOut': animacion,'fadeIn': !animacion}">
+                    <h1 class="title is-1 ">
+                        Sense Software ERP
+                    </h1>
+
+                    <br>
+
+                    <h2 class="subtitle  is-4">
+                        <p class="has-text-weight-bold">Designed to your needs.</p>
+                        Adaptability and simplicity at a click away.
+
+                    </h2>
+                    <br>
+                </div>
+            </div>
+            <div class="columns  is-centered">
+
+                <div class="column is-half is-narrow  has-text-centered animated fadeIn ">
+
+                    <a (click)="login()" class="button  is-outlined is-rounded is-large">Login</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>
