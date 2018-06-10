@@ -7,7 +7,6 @@ import { AuthService } from '../../services/auth.service';
   styles: []
 })
 export class LoginComponent  {
-  animacion = false;
   constructor(private auth: AuthService) { }
 
   login() {

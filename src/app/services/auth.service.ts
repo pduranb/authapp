@@ -32,7 +32,7 @@ export class AuthService {
         this.setSession(authResult);
         this.router.navigate(['/home']);
       } else if (err) {
-        this.router.navigate(['/home']);
+        this.router.navigate(['/login']);
         console.log(err);
       }
     });
